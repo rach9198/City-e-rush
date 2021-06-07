@@ -1,0 +1,639 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>City E-Traveller</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Go Taxi Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- bootstrap-css -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!--// bootstrap-css -->
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!--// css -->
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- //font-awesome icons -->
+	<!-- gallery -->
+	<link href='css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+	<!-- //gallery -->
+	<!-- font -->
+	<link href="//fonts.googleapis.com/css?family=Arvo:400,400i,700,700i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+		rel="stylesheet">
+	<!-- //font -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+	<!-- banner -->
+	<div class="banner jarallax">
+		<div class="header">
+			<div class="header-left">
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+
+		<div class="w3-header-bottom">
+			<div class="w3layouts-logo">
+				<h1>
+					<a href="index.html">City E-Rush</a>
+				</h1>
+			</div>
+
+			<div class="top-nav">
+				<nav class="navbar navbar-default">
+
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+							data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="first-list"><a class="active" href="index.html">Home</a></li>
+							<li><a href="#about" class="scroll">About</a></li>
+							<!-- <li><a href="#gallery" class="scroll">Gallery</a></li> -->
+							<li><a href="#team" class="scroll">Updates</a></li>
+							<!-- <li><a href="#blog" class="scroll">Blog</a></li> -->
+							<li><a href="#rate" class="scroll">Rates</a></li>
+							<li><a href="#contact" class="scroll">Contact</a></li>
+							<li><a href="login-index.html" class="">Login</a></li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+				</nav>
+			</div>
+
+			<!-- <div class="clearfix"> </div> -->
+		</div>
+
+		<div class="banner-info">
+			<div class="container">
+				<div class="w3-banner-info">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider4">
+								<li>
+									<div class="w3layouts-banner-info">
+										<h3><span>Ride</span>your city</h3>
+										<p>Book your E-Tickets and explore travelling</p>
+										<div class="w3ls-button">
+											<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="w3layouts-banner-info">
+										<h3><span>Bus</span>at your comfy</h3>
+										<p>grab now for seamless adventure</p>
+										<div class="w3ls-button">
+											<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+								// Slideshow 4
+								$("#slider4").responsiveSlides({
+									auto: true,
+									pager: true,
+									nav: false,
+									speed: 400,
+									namespace: "callbacks",
+									before: function () {
+										$('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+										$('.events').append("<li>after event fired.</li>");
+									}
+								});
+
+							});
+						</script>
+						<!--banner Slider starts Here-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+							aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">city e-rush</h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/11.jpg" alt="" />
+						<p>In the current Pandemic situation it is ideal to have no physical contact everywhere we go, also while
+							using public transportation. Providing E-tokens is the best policy which can be adopted.
+							There is always a chance of misuse of tickets which can be avoided using our service. It is beneficial
+							towards our society by not providing the tickets manually and thus saving paper and moving towards a
+							greener environment which is essential in today’s scenario.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+	<!-- welcome -->
+	<div class="welcome">
+		<div class="container">
+			<div class="wthree-heading">
+				<h2>Welcome</h2>
+				<p>To user friendly Portal of E-Ticketing<br>Sit back and enjoy our T-less Ride and Make sure you recomend and
+					share you valuable views </p>
+			</div>
+			<div class="w3-welcome-grids">
+				<div class="col-md-3 w3-welcome-grid">
+					<div class="w3-welcome-grid-info">
+						<img src="images/3.jpg" alt="" />
+						<h4>T-Less traveling</h4>
+						<p>Book E-Tickets for self, your beloved friends and family without the fear of loosing tickets or
+							misplacing them.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 w3-welcome-grid">
+					<div class="w3-welcome-grid-info">
+						<img src="images/4.jpg" alt="" />
+						<h4>Cheerful Rides</h4>
+						<p>Get accurate rates on your ride without any dispencery based on your selected age groups and distance.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 w3-welcome-grid">
+					<div class="w3-welcome-grid-info">
+						<img src="images/5.jpg" alt="" />
+						<h4>Ease of access</h4>
+						<p>A user friendly portal with no complexities and ensures safe and secure transactions on all services.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 w3-welcome-grid">
+					<div class="w3-welcome-grid-info">
+						<img src="images/9.jpg" alt="" />
+						<h4>Eco-Friendly</h4>
+						<p>Say Good bye to papers and shift to the evolving new ERA of <br>E-ticketing and let the trees respire.
+						</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //welcome -->
+	<!-- about-bottom -->
+	<div class="about-bottom jarallax" id="about">
+		<!-- container -->
+		<div class="container">
+			<div class="wthree-heading about-heading">
+				<h3>About Us</h3>
+				<p>Urban or suburban services is the most common type of public transport bus service and we help people by
+					transporting large numbers of people in urban areas, or to and from the suburbs to population centres.<br>
+					Services we provide for our commuters are</p>
+			</div>
+			<div class="about-bottom-grids">
+				<div class="col-md-6 about-bottom-left">
+					<h4>DAILY TICKETING</h4>
+					<p>Daily Tickets are simple and most used form of ticketing. These are useful for commuters who make use of
+						public transport rarely and travel for short distance or for those who travel only once in a while.
+					</p>
+				</div>
+				<div class="col-md-6 about-bottom-left about-bottom-right">
+					<h4>ORDINARY DAY PASS</h4>
+					<p>A Very efficient and effective method for our daily passengers who travel long distance. It is cost
+						effective and is valid for a complete 24hrs seamless journey.
+						The Pass is only valid with an Identity Proof of an Individual.
+					</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="about-bottom-grids w3ls-about-bottom-grids">
+				<div class="col-md-6 about-bottom-left">
+					<h4>MONTHLY PASS</h4>
+					<p>Its a travel through out the city pass. Commuters will have to register prior for the pass approval with
+						all the necessary Documentations. The pass can be renewed once it expires using the generated Monthly pass
+						Identification Number of an Individual.
+					</p>
+				</div>
+				<div class="col-md-6 about-bottom-left about-bottom-right">
+					<h4>YEARLY PASS</h4>
+					<p>It is used for fixed route travelling. Its mostly dedicated to Teens who are from schools and colleges.
+						They will have to register prior for the pass approval with all the necessary Documentations with approval
+						from their respective organizations. The pass can be renewed once it expires.
+					</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- //about-bottom -->
+	<!-- offer -->
+	<div class="offer">
+		<div class="col-md-5 offer-left">
+
+		</div>
+		<div class="col-md-7 offer-right">
+			<div class="wthree-heading offer-heading">
+				<h3>What We Offer</h3>
+			</div>
+			<ul>
+				<li>
+					<h4>Fraud Prevention</h4>
+				</li>
+				<li>
+					<h4>No fear of losing passes/cards/e-tickets</h4>
+				</li>
+				<li>
+					<h4>Increase in Boarding Speeds</h4>
+				</li>
+				<li>
+					<h4>Shorter transaction period</h4>
+				</li>
+				<li>
+					<h4>Relatively lower prizing</h4>
+				</li>
+				<li>
+					<h4>Safe and secure transaction</h4>
+				</li>
+
+			</ul>
+
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- //offer -->
+
+<!--	team -->
+	<!-- <div class="team jarallax" id="team">
+		<div class="team-dot">
+			<div class="container">
+				<div class="wthree-heading about-heading">
+					<h3>Updates</h3>
+					<p>We don't want to our customers to miss upon any update on our services.. </p>
+				</div>
+				<div class="agile-team-grids">
+					<div class="col-sm-3 team-grid">
+						<div class="flip-container">
+							<div class="flipper">
+								<div class="front">
+									 <marquee behaviour="scroll" direction="left"> 
+									<img src="images/t1.jpg" alt="" />
+									<h3>Title</h3>-->
+
+									<!-- </marquee> -->
+							<!--	</div>
+								<div class="back">
+									<h4>Peter Parker</h4>
+									<p>Vestibulum </p>
+									<div class="w3l-social">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-rss"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 team-grid">
+						<div class="flip-container">
+							<div class="flipper">
+								<div class="front">
+									<img src="images/t2.jpg" alt="" />
+								</div>
+								<div class="back">
+									<h4>Steven Wilson</h4>
+									<p>Quisque vitae</p>
+									<div class="w3l-social">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-rss"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 team-grid">
+						<div class="flip-container">
+							<div class="flipper">
+								<div class="front">
+									<img src="images/t3.jpg" alt="" />
+								</div>
+								<div class="back">
+									<h4>Johan Botha</h4>
+									<p>Nulla molestie</p>
+									<div class="w3l-social">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-rss"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 team-grid">
+						<div class="flip-container">
+							<div class="flipper">
+								<div class="front">
+									<img src="images/t4.jpg" alt="" />
+								</div>
+								<div class="back">
+									<h4>Mary Jane</h4>
+									<p>Aliquam non</p>
+									<div class="w3l-social">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-rss"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	 <!-- //team -->
+
+
+
+	<!-- rate -->
+	<div class="rate jarallax" id="rate">
+		<div class="container">
+			<div class="wthree-heading about-heading">
+				<h3>Rates for E-Rush</h3>
+				<!-- <p>Rates vary based on Age group and Distance covered.</p> -->
+			</div>
+			<div class="agileinfo-rate-grids">
+				<div class="agileinfo-rate-grid-nfo">
+					<div class="agileinfo-rate-grid">
+						<ul>
+							<li>Daily Tickets</li>
+							<li>₹1.5 / km</li>
+						</ul>
+					</div>
+					<div class="agileinfo-rate-grid">
+						<ul>
+							<li>Daily tickets Sen</li>
+							<li>₹1 / km</li>
+						</ul>
+					</div>
+					<div class="agileinfo-rate-grid">
+						<ul>
+							<li>Ordinary day Pass</li>
+							<li>₹70</li>
+						</ul>
+					</div>
+					<div class="agileinfo-rate-grid">
+						<ul>
+							<li>Ordinary day Pass (Senior Citizen)</li>
+							<li>₹60</li>
+						</ul>
+					</div>
+					<div class="agileinfo-rate-grid">
+						<ul>
+							<li>Monthly Pass</li>
+							<li>₹1050</li>
+						</ul>
+					</div>
+					<div class="agileinfo-rate-grid">
+						<ul>
+							<li>Monthly Pass (Senior Citizen)</li>
+							<li>₹945</li>
+						</ul>
+					</div>
+					<div class="agileinfo-rate-grid">
+						<ul>
+							<li>Yearly Pass</li>
+							<li>₹1975</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //rate -->
+
+	<!-- contact -->
+	<div class="contact" id="contact">
+		<div class="container">
+			<div class="wthree-heading">
+				<h3>Contact Us</h3>
+				<p>Appreciate our service!? OR Facing any issues. Please write us back..</p>
+			</div>
+			<div class="address">
+				<div class="col-sm-4 address-grids">
+					<h4>Address :</h4>
+					<p> <span>Majestic, Bengaluru</span>India
+					</p>
+				</div>
+				<div class="col-sm-4 address-grids">
+					<h4>Phone :</h4>
+					<p>+91 123 456 789</p>
+					<p>+91 987 654 321</p>
+				</div>
+				<div class="col-sm-4 address-grids">
+					<h4>Email :</h4>
+					<p><a href="mailto:example@email.com">mail@example.com</a></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="contact-form">
+				<h4>Contact Form</h4>
+				<form action="#" method="post">
+					<div class="fields-grid">
+						<div class="styled-input agile-styled-input-top">
+							<input type="text" name="Full Name" required="">
+							<label>Full Name</label>
+							<span></span>
+						</div>
+						<div class="styled-input agile-styled-input-top">
+							<input type="text" name="Phone" required="">
+							<label>Phone</label>
+							<span></span>
+						</div>
+						<div class="styled-input">
+							<input type="email" name="Email" required="">
+							<label>Email</label>
+							<span></span>
+						</div>
+						<div class="styled-input">
+							<input type="text" name="Subject" required="">
+							<label>Subject</label>
+							<span></span>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="styled-input textarea-grid">
+						<textarea name="Message" required=""></textarea>
+						<label>Message</label>
+						<span></span>
+					</div>
+					<input type="submit" value="SEND">
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+
+
+	<!-- footer -->
+	<footer>
+		<div class="w3ls-footer-grids">
+			<div class="container">
+				<div class="col-md-3 w3l-footer one">
+					<h3>Quote</h3>
+
+					<p>"You can't get there by bus, only by hard work and risk and by not quite knowing what you're doing. What
+						you'll discover will be wonderful. What you'll discover will be yourself."</p>
+					<p class="adam">- Alan Alda</p>
+
+					<div class="clearfix"></div>
+				</div>
+				<!--<div class="col-md-3 w3l-footer one tweet">
+						<h3>Tweets</h3>
+						<ul>
+							<li>
+								<a href="#"><i class="fa fa-twitter"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus.
+								<i>http//example.com</i></a>
+								<span>About 15 minutes ago<span>
+							</span></span></li>
+							<li>
+								<a href="#"> <i class="fa fa-twitter"></i>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit. 
+								<i>http//example.com</i></a>
+								<span>About a day ago<span>
+							</span></span></li>
+						</ul>
+					</div> -->
+				<div class="col-md-3 w3l-footer two">
+					<h3>Keep Connected</h3>
+					<ul>
+						<li><a class="fb" href="#"><i class="fa fa-facebook"></i>Like us on Facebook</a></li>
+						<li><a class="fb1" href="#"><i class="fa fa-twitter"></i>Follow us on Twitter</a></li>
+						<li><a class="fb2" href="#"><i class="fa fa-google-plus"></i>Add us on Google Plus</a></li>
+						<li><a class="fb3" href="#"><i class="fa fa-dribbble"></i>Follow us on Dribbble</a></li>
+						<li><a class="fb4" href="#"><i class="fa fa-pinterest-p"></i>Follow us on Pinterest</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 w3l-footer three">
+					<h3>Contact Information</h3>
+					<ul>
+						<li><i class="fa fa-map-marker"></i>
+							<p>ARNV Services <span>Bengaluru City</span>India </p>
+							<div class="clearfix"></div>
+						</li>
+						<li><i class="fa fa-phone"></i>
+							<p>1234567890</p>
+							<div class="clearfix"></div>
+						</li>
+						<li><i class="fa fa-envelope-o"></i><a href="mailto:info@example.com">arnv@example.com</a>
+							<div class="clearfix"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="copy-right-grids">
+			<div class="container">
+				<div class="copy-left">
+					<p class="footer-gd">© 2021 City E-Rush. All Rights Reserved</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<!-- //here ends scrolling icon -->
+</body>
+
+</html>

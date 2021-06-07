@@ -1,0 +1,147 @@
+.dropdown-menu {
+  background-color: #333;
+}
+
+.cond-funcs {
+  width: 60%;
+  height: 300px;
+  margin: 20px auto;
+  /* border: 1px solid black; */
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+/* .bus-no {
+  width: 60%;
+  margin: 20px auto;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+} */
+
+.bus-no input .src-dest input {
+  width: 200px;
+  padding: 150kpx;
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  outline-style: none;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-left: 10px;
+}
+
+.items {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.form-group {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.form-group select {
+  width: 200px;
+  margin: 10px ;
+  text-align: center;
+  align-items: center;
+}
+
+.stops {
+  margin-top: 40px;
+}
+
+
+
+
+/*--stats-section--*/
+.count-agileits {
+  background: #999;
+  background: #191d20;
+  background: rgba(217, 79, 189, 0.7);
+background:#ffffff;
+}
+.count-grids {
+  /* margin-top: 2em; */
+  background: #232323;
+  margin-bottom: 30px;
+  width: 80%;
+  margin: 30px auto;
+  /* margin: 0 auto 30px auto; */
+}
+
+/* .count-bgcolor-w3ls {
+  /* width: 70%; 
+} */
+
+.count-grid span {
+  background: #00d2be;
+  display: block;
+  width: 55px;
+  height: 2px;
+  margin: 20px auto;
+  /* margin-left: 500px; */
+}
+.count-grid h4 {
+  font-size: 4em;
+color:#fff;
+}
+.count-grid h5 {
+  font-size: 1.2em;
+  color: #c3c3c3;
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.count-grid i {
+  font-size: 2em;
+  color: #146eb4;
+  width: 30px;
+  height: 30px;
+  padding-top: 0.7em;
+  
+  /* margin-left: 100px; */
+}
+
+.numscroller {
+  font-size: 3em;
+  color: #fff;
+  padding: 0.3em 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+.count-grids h3 span {
+  color: #fff;
+}
+.count.hvr-bounce-to-bottom {
+  text-align: center;
+}
+.count-grid {
+  text-align: center;
+  border-right: 1px solid #999;
+  padding: 30px;
+  /* margin: 30px auto; */
+  /* margin-left: 10px; */
+}
+
+.count-particles{
+  background: #000022;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-weight: bold;
+}
+
+
+
+

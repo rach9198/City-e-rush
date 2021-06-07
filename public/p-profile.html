@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Profile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Go Taxi Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="p-css/p-bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="./p-css/p-yp-style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="p-css/p-font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- gallery -->
+<link href='p-css/p-simplelightbox.min.css' rel='stylesheet' type='text/css'>
+<!-- //gallery -->
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Arvo:400,400i,700,700i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<!-- //font -->
+<script src="p-js/jquery-1.11.1.min.js"></script>
+<script src="p-js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+
+
+<!-- uploaded image display-->
+
+<style>
+    article, aside, figure, footer, header, hgroup, 
+    menu, nav, section { display: block; }
+</style>
+
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner jarallax">
+		<div class="header">
+			<div class="header-left">
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+
+		<div class="w3-header-bottom">
+			<div class="w3layouts-logo">
+				<h1>
+					<a href="index.html">City E-Rush</a>
+				</h1>
+			</div>
+
+			<div class="top-nav">
+				<nav class="navbar navbar-default">
+					
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li><a href="p-profile.html" class="active">View Profile</a></li>
+                            <li class="first-list"><a href="p-PSGR_index.html">Dashboard</a></li>
+						</ul>	
+						<div class="clearfix"> </div>
+					</div>	
+				</nav>		
+			</div>
+
+			<!-- <div class="clearfix"> </div> -->
+		</div>
+	</div>
+	<!-- //banner -->
+
+<!--Form -->
+<form id="form" >
+    <div class="cnd_form">
+    <h4 style="font-weight: bold; font-size: 35px">User Profile</h4><br>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>First Name</label>
+            <input type="text" class="form-control" id="fname" placeholder="First Name" readonly >
+        </div>
+
+        <div class="form-group col-md-6">
+          <label>Last Name</label>
+          <input type="text" class="form-control" id="lname" placeholder="Last Name" readonly >
+        </div>
+    </div>
+    
+    <!-- dob, gender, phno, qualification, photo, id, ad no. -->
+    <div class="dob form-group">
+        <label>Date of birth</label> &nbsp;&nbsp;&nbsp;
+        <input type="date" id="dob" name="birthday" readonly  >
+    </div>
+
+    <div class="gender form-group" style="display: flex;">
+        <label >Gender</label>&nbsp;&nbsp;&nbsp;
+        <input type="radio" disabled name="gender" value="male"  > &nbsp; Male &nbsp;&nbsp;&nbsp;
+        <input type="radio" disabled name="gender" value="female" >&nbsp; Female &nbsp;&nbsp;&nbsp;
+        <input type="radio" disabled name="gender" value="other" >&nbsp; Other
+    </div>
+
+    <div class="form-group">
+        <label>Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Building / Apartment No. " readonly  >
+    </div>
+
+    <div class="form-group">
+        <label>Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Street, Area , District or Town" readonly>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>City</label>
+            <input type="text" class="form-control" id="inputCity" readonly  >
+        </div>
+        <div class="form-group col-md-4">
+            <label>State</label>
+            <select disabled id="inputState" class="form-control"   >
+                <option disabled selected value>Choose...</option>
+                <option>Karnataka</option>
+                <option>Andhra Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Tamil Nadu</option>
+                <option>Kerala</option>
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label>Zip</label>
+          <input type="text" maxlength="6" class="form-control" id="inputZip" readonly  >
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Mobile Number</label>
+        <input type="tel" class="form-control" id="mob" maxlength="10" placeholder="Enter 10 digit mobile number" readonly  >
+    </div>  
+    <br>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Attach Adhaar : ID Proof (jpg/ jpeg/ png)</label>
+            <input type="file" class="custom-file-input" id="idproof" accept="image/*"  onchange="id_dis(this);"  >
+            
+        </div>
+        
+        <div class="form-group col-md-6">
+            <label>Adhaar Number</label>
+            <input type="text" class="form-control" id="id_no" maxlength="12" placeholder="Enter 12 digit adhaar number" readonly  >
+        </div>
+        <img id="id-dis" src="#" alt="your image" />
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Attach Photograph (jpg/ jpeg/ png)</label>
+            <input type="file" class="custom-file-input" id="photo" accept="image/*" onchange="photo_dis(this);"  >
+            <img id="pic-dis" src="#" alt="your image" />
+        </div>
+
+        <div class="form-group col-md-6">
+            <label>Attach Signature (jpg/ jpeg/ png)</label>
+            <input type="file" class="custom-file-input" id="sign" accept="image/*" onchange="sign_dis(this);"  >
+            <img id="sign-pic" src="#" alt="your image" />
+        </div>
+    </div>
+
+    <button class="btn btn-primary" onclick="enable(event)">Edit Profile</button>
+    <button type="submit" class="btn btn-primary" >Save Changes</button>
+
+
+    </div>
+  </form>
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+
+<script>
+	var firebaseConfig = {
+	  apiKey: "AIzaSyCx35-u190UD35eVm1ZLEL4u9b3xugegSw",
+	  authDomain: "e-rush-f34c2.firebaseapp.com",
+	  projectId: "e-rush-f34c2",
+	  storageBucket: "e-rush-f34c2.appspot.com",
+	  messagingSenderId: "477721234621",
+	  appId: "1:477721234621:web:97b2ca517a23cd8a4a7bd4",
+	  measurementId: "G-V4YXQF3ZVD"
+	};
+	// Initialize Firebase
+	firebase.initializeApp(firebaseConfig);
+	firebase.analytics();
+</script>
+
+<script src="p-js/p_profile.js"></script>
+<script src="p-js/p_profile1.js"></script>
+
+</html>

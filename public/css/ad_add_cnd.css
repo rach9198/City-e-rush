@@ -1,0 +1,23 @@
+.dropdown-menu {
+  background-color: #333;
+}
+
+.cnd_form {
+  width: 60%;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.form-group {
+ margin-bottom: 20px;
+}
+
+.gen-type {
+  margin-right: 10px;
+}
+
+
+
+

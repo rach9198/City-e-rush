@@ -1,0 +1,25 @@
+.dropdown-menu {
+  background-color: #333;
+}
+
+.secs {
+  display: flex;
+  width: 100%;
+
+}
+
+.sec-tables {
+  display: flex;
+  flex-direction: column;
+}
+
+.table {
+  width: 60%;
+  margin: 20px;
+  
+}
+
+.sec-graphs {
+  padding-top: 70px;
+  margin-right: 50px;
+}
