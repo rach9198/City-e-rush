@@ -97,6 +97,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="agileits-w3layouts-info">
 						<div class="cnd_form1">
 
+							<div class="form-group">
+						        <label for="inputEmail4">Enter ID :</label>
+						        <input type="email" class="form-control" id="inputEmail4" placeholder="">
+						    </div>
 							<div class="form-row">
 						        <div class="form-group col-md-6">
 						          <label for="inputEmail4">Source</label>
@@ -142,11 +146,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<input type="radio" name="cls" value="ug"> &nbsp;UG
 		</div>
 
-		<div class="form-group">
-			<label for="customFile">Attach Fee Receipt</label>
-			<input type="file" class="custom-file-input" id="idproof">
+		<div class="gender form-group" style="display: flex;">
+			<label >Gender</label>&nbsp;&nbsp;&nbsp;
+			<input type="radio" name="gender" value="male"> &nbsp; Male &nbsp;&nbsp;&nbsp;
+			<input type="radio" name="gender" value="female">&nbsp; Female &nbsp;&nbsp;&nbsp;
+			<input type="radio" name="gender" value="other" >&nbsp; Other
 		</div>
 
+		<div class="form-row">
+			<div class="form-group col-md-6">
+				<label for="customFile">Attach ID Proof</label>
+				<input type="file" class="custom-file-input" id="idproof">
+			</div>
+			
+			<div class="form-group col-md-6">
+				<label for="custom-file">ID Number</label>
+				<input type="text" class="form-control" id="id_no" placeholder="1234 4567 8910 1122">
+			</div>
+		</div>
+
+		<div class="form-row">
+			<div class="form-group col-md-6">
+				<label for="customFile">Attach Photograph</label>
+				<input type="file" class="custom-file-input" id="photo">
+			</div>
+
+			<div class="form-group col-md-6">
+				<label for="customFile">Attach Signature</label>
+				<input type="file" class="custom-file-input" id="sign">
+			</div>
+		</div>
 
 		<div class="form-row">
 			<div class="form-group col-md-6">
@@ -167,7 +196,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 		<h3>Payable Amount : Rs. 1975</h3><br>
 		
-		<button type="submit" class="btn btn-primary">Confirm & Pay</button>
+		<button id="paymentBtn" class="btn btn-primary">Confirm & Pay</button>
     </div>
 </form>
 
@@ -192,6 +221,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	firebase.analytics();
   </script>
   <script src="p-js/p_yearlypass.js" ></script>
+  <script src="//checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="./js/payemt.js"></script>
 
 </body>
 
